@@ -36,7 +36,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         fontWeight: FontWeight.bold)
                 ),
                 Expanded(child:
-                    Image.network('https://c.tenor.com/K14AkzZdHN0AAAAC/lol-league-of-legends.gif',height: 200, width: 400)),
+                Image.asset('assets/images/logo.jpg', height: 400, width: 600),),
                 Row(
                   crossAxisAlignment: CrossAxisAlignment.center,
                   mainAxisAlignment: MainAxisAlignment.center,
