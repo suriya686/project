@@ -14,8 +14,7 @@ class aphe_page extends StatelessWidget {
       width: double.infinity,
       child: Image.asset('assets/images/bg.jpg',fit:BoxFit.cover ,),
     ),
-          Expanded(
-          child: Center(
+          Center(
             child: Column(
               children: [
                 Expanded(
@@ -73,7 +72,6 @@ class aphe_page extends StatelessWidget {
               ],
             ),
           ),
-        ),
     ]
     );
   }
@@ -166,8 +164,7 @@ class nasus_page extends StatelessWidget {
           width: double.infinity,
           child: Image.asset('assets/images/bg.jpg',fit:BoxFit.cover ,),
         ),
-        Expanded(
-        child: Center(
+        Center(
           child: Column(
             children: [
               Expanded(
@@ -225,7 +222,6 @@ class nasus_page extends StatelessWidget {
             ],
           ),
         ),
-      ),
     ]
     );
   }
@@ -243,8 +239,7 @@ class zed_page extends StatelessWidget {
       width: double.infinity,
       child: Image.asset('assets/images/bg.jpg',fit:BoxFit.cover ,),
     ),
-        Expanded(
-        child: Center(
+        Center(
           child: Column(
             children: [
               Expanded(child: Padding(
@@ -297,7 +292,6 @@ class zed_page extends StatelessWidget {
             ],
           ),
         ),
-      ),
     ]
     );
   }
