@@ -6,15 +6,15 @@ class aphe_page extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      constraints: BoxConstraints.expand(),
-      decoration: BoxDecoration(
-        image: DecorationImage(
-          image: AssetImage('assets/images/bg.jpg'),
-          fit: BoxFit.cover,
-        ),
-      ),
-        child:Expanded(
+    return Stack(
+
+        children:[
+      SizedBox(
+      height: double.infinity,
+      width: double.infinity,
+      child: Image.asset('assets/images/bg.jpg',fit:BoxFit.cover ,),
+    ),
+          Expanded(
           child: Center(
             child: Column(
               children: [
@@ -74,6 +74,7 @@ class aphe_page extends StatelessWidget {
             ),
           ),
         ),
+    ]
     );
   }
 }
@@ -83,16 +84,15 @@ class yasuo_page extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      constraints: BoxConstraints.expand(),
-      decoration: BoxDecoration(
-        image: DecorationImage(
-          image: AssetImage('assets/images/bg.jpg'),
-          fit: BoxFit.cover,
+    return Stack(
+
+      children:[
+        SizedBox(
+          height: double.infinity,
+          width: double.infinity,
+          child: Image.asset('assets/images/bg.jpg',fit:BoxFit.cover ,),
         ),
-      ),
-      child:Expanded(
-        child: Center(
+        Center(
           child: Column(
             children: [
               Expanded(
@@ -149,7 +149,7 @@ class yasuo_page extends StatelessWidget {
             ],
           ),
         ),
-      ),
+      ]
     );
   }
 }
@@ -158,15 +158,15 @@ class nasus_page extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      constraints: BoxConstraints.expand(),
-      decoration: BoxDecoration(
-        image: DecorationImage(
-          image: AssetImage('assets/images/bg.jpg'),
-          fit: BoxFit.cover,
+    return Stack(
+
+      children:[
+        SizedBox(
+          height: double.infinity,
+          width: double.infinity,
+          child: Image.asset('assets/images/bg.jpg',fit:BoxFit.cover ,),
         ),
-      ),
-      child:Expanded(
+        Expanded(
         child: Center(
           child: Column(
             children: [
@@ -226,6 +226,7 @@ class nasus_page extends StatelessWidget {
           ),
         ),
       ),
+    ]
     );
   }
 }
@@ -234,15 +235,15 @@ class zed_page extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      constraints: BoxConstraints.expand(),
-      decoration: BoxDecoration(
-        image: DecorationImage(
-          image: AssetImage('assets/images/bg.jpg'),
-          fit: BoxFit.cover,
-        ),
-      ),
-      child:Expanded(
+    return Stack(
+
+      children:[
+      SizedBox(
+      height: double.infinity,
+      width: double.infinity,
+      child: Image.asset('assets/images/bg.jpg',fit:BoxFit.cover ,),
+    ),
+        Expanded(
         child: Center(
           child: Column(
             children: [
@@ -297,6 +298,7 @@ class zed_page extends StatelessWidget {
           ),
         ),
       ),
+    ]
     );
   }
 }
